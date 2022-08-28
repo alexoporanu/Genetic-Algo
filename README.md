@@ -18,7 +18,7 @@ example of the file Evolution.txt (obtained for the function –x^2 +x+2, domain
 population size 20, precision 6, probability of recombination 0.25, probability of
 mutation 0.01 and 50 stages))
 
-## In files are written
+## FORMATATION
  - the initial population in the form
 i: chromosome representation x = the value corresponding to the chromosome in the definition domain
 of the function f = the value corresponding to the chromosome (f(X​i​))
@@ -27,8 +27,8 @@ of the function f = the value corresponding to the chromosome (f(X​i​))
   - highlighting the selection process, which consists in generating a uniform random number u on
 [0,1) and determining the interval [q​i​, q​i+1​) to belong to this number; value of this
 interval, chromosome i+1 will be selected. The process is repeated until the desired number of is selected
-chromosomes. **Requirement:** the search of the interval set to u will be searched
-binary.
+chromosomes. **Requirement:** the search of the interval set to u will be binary
+searched.
   - highlighting the chromosomes that participate in recombination
   - for recombinations that take place, the pairs participating in the recombination are highlighted,
 the randomly generated breakpoint as well as the chromosomes resulting from recombination (or,
